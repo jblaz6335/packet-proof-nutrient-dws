@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "packet-proof"
+version = "0.1.0"
+description = "Auditable trade-document reconciliation with Nutrient DWS"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["httpx==0.28.1"]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.4.2",
+  "pytest-cov==7.0.0",
+  "ruff==0.13.2",
+  "reportlab==4.4.3",
+  "pypdf==6.0.0",
+  "pdfplumber==0.11.7",
+]
+
+[project.scripts]
+packet-proof = "packet_proof.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["packet_proof"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["packet_proof"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["E501"]

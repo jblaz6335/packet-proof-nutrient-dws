@@ -1,0 +1,8 @@
+{
+  "fields": [
+    {"name": "supplier", "value": "Northstar Components LLC", "confidence": 0.99, "page": 1},
+    {"name": "purchase_order", "value": "PO-8814", "confidence": 0.99, "page": 1},
+    {"name": "sku_1", "value": "AX-410", "confidence": 0.99, "page": 1},
+    {"name": "quantity_1", "value": "22", "confidence": 0.99, "page": 1}
+  ]
+}

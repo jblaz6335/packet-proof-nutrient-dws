@@ -1,0 +1,12 @@
+{
+  "fields": [
+    {"name": "supplier", "value": "Northstar Components LLC", "confidence": 0.99, "page": 1},
+    {"name": "purchase_order", "value": "PO-8814", "confidence": 0.99, "page": 1},
+    {"name": "currency", "value": "USD", "confidence": 0.99, "page": 1},
+    {"name": "country_of_origin", "value": "United States", "confidence": 0.98, "page": 1},
+    {"name": "sku_1", "value": "AX-410", "confidence": 0.99, "page": 1},
+    {"name": "quantity_1", "value": "24", "confidence": 0.99, "page": 1},
+    {"name": "unit_price_1", "value": "120.00", "confidence": 0.97, "page": 1},
+    {"name": "line_total_1", "value": "2880.00", "confidence": 0.98, "page": 1}
+  ]
+}
