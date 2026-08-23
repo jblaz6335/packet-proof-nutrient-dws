@@ -56,8 +56,8 @@ Next steps are configurable customer rule packs, reviewer annotations, exception
 
 - Source: https://github.com/jblaz6335/packet-proof-nutrient-dws
 - Blaz Algo Systems: https://blazalgosystems.netlify.app/
-- Video: add the public or unlisted URL after upload
+- Video: https://youtu.be/AgYh_pTIXpI
 
 ## Submission accuracy note
 
-The rendered 2:57 demo uses the repository's labeled synthetic replay path; it is not a recording of the API call. The separate `artifacts/live/` evidence comes from the authorized DWS run against the same three fictional PDFs.
+The rendered 2:25 demo uses the repository's labeled synthetic replay path; it is not a recording of the API call. The separate `artifacts/live/` evidence comes from the authorized DWS run against the same three fictional PDFs.

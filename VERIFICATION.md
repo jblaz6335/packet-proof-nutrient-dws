@@ -34,4 +34,4 @@ Verified locally on August 22, 2026 using Python 3.14.5 on Windows.
 
 The suite covers input validation, required and unique document types, every deterministic comparison branch, invoice arithmetic, confidence thresholds, stable audit hashes, HTML escaping, CLI execution gates, exact mocked Nutrient request construction, provider error handling, fixture hashing, and PDF text/label integrity.
 
-The authorized live Nutrient calls were executed only against the three fictional PDFs. The retained response files can be replayed with `python tools/replay_live_responses.py`. This record does **not** claim a video upload, final Devpost submission, prize, sale, or revenue until those external events are separately verified.
+The authorized live Nutrient calls were executed only against the three fictional PDFs. The retained response files can be replayed with `python tools/replay_live_responses.py`. The improved demo upload is verified as unlisted at `https://youtu.be/AgYh_pTIXpI`, and the final Devpost submission is verified at `https://devpost.com/software/packet-proof`. This record does **not** claim a prize, sale, or revenue.

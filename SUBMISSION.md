@@ -37,10 +37,10 @@ Nutrient DWS performs the core document operation: it converts each PDF into str
 - [x] Execute the live Nutrient flow with an authorized API key and retain sanitized proof
 - [x] Publish a public repository or judge-accessible shared link
 - [x] Render the 2–4 minute demonstration video locally (`submission-assets/packet-proof-demo.mp4`, 2:25)
-- [ ] Upload the demonstration video and retain the public or unlisted URL
+- [x] Upload the demonstration video and retain the unlisted URL (`https://youtu.be/AgYh_pTIXpI`)
 - [x] Create the Devpost draft and set its solo-project name and pitch
-- [ ] Complete the Devpost details and paste the required one-line DWS statement
-- [ ] Submit before September 3, 2026 at 10:00 AM PDT
+- [x] Complete the Devpost details and paste the required one-line DWS statement
+- [x] Submit before September 3, 2026 at 10:00 AM PDT (`https://devpost.com/software/packet-proof`)
 
 Official competition: <https://api-cloud-ai-hackathon-2026.devpost.com/>
 
