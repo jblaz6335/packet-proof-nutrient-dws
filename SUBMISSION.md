@@ -36,7 +36,7 @@ Nutrient DWS performs the core document operation: it converts each PDF into str
 - [x] Automated verification suite
 - [x] Execute the live Nutrient flow with an authorized API key and retain sanitized proof
 - [x] Publish a public repository or judge-accessible shared link
-- [x] Render the 2–4 minute demonstration video locally (`submission-assets/packet-proof-demo.mp4`, 2:57)
+- [x] Render the 2–4 minute demonstration video locally (`submission-assets/packet-proof-demo.mp4`, 2:25)
 - [ ] Upload the demonstration video and retain the public or unlisted URL
 - [x] Create the Devpost draft and set its solo-project name and pitch
 - [ ] Complete the Devpost details and paste the required one-line DWS statement

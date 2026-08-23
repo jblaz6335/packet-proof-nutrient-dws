@@ -16,3 +16,7 @@ submission-assets/segment-*.mp4
 submission-assets/segments.txt
 submission-assets/speech-temp.ps1
 submission-assets/packet-proof-demo.mp4
+.tts-venv/
+submission-assets/kokoro-*.onnx
+submission-assets/voices-*.bin
+submission-assets/qa-new/

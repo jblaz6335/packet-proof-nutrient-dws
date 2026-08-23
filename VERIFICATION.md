@@ -27,7 +27,8 @@ Verified locally on August 22, 2026 using Python 3.14.5 on Windows.
 - Authorized live Nutrient run: pass; 3 fictional PDFs processed at the official `/build` endpoint
 - Live result: `human_review_required`, 24-versus-22 quantity mismatch, automatic release false
 - Sanitized live evidence: retained under `artifacts/live/`; no API key or authorization header stored
-- Submission video: H.264/AAC, 1920x1080, 2:57, audio mean -20.4 dB
+- Submission video: H.264/AAC, 1920x1080, 2:25, 48 kHz mono audio, mean -15.5 dB and peak -1.2 dB
+- Narration: locally rendered with the open-source Kokoro ONNX stack; no cloud voice service used
 
 ## Scope of proof
 
