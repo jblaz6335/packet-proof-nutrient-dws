@@ -24,9 +24,10 @@ Verified locally on August 22, 2026 using Python 3.14.5 on Windows.
 - Expected findings: 1 (`quantity_mismatch`)
 - Automatic release: false
 - External calls in demo mode: 0
+- Submission video: H.264/AAC, 1920x1080, 2:57, audio mean -20.4 dB
 
 ## Scope of proof
 
 The suite covers input validation, required and unique document types, every deterministic comparison branch, invoice arithmetic, confidence thresholds, stable audit hashes, HTML escaping, CLI execution gates, exact mocked Nutrient request construction, provider error handling, fixture hashing, and PDF text/label integrity.
 
-This record does **not** claim a live Nutrient call, public repository, video upload, Devpost submission, prize, sale, or revenue. Those require separate external evidence.
+This record does **not** claim a live Nutrient call, video upload, Devpost submission, prize, sale, or revenue. Those require separate external evidence. The repository is public and the submission video has been rendered locally but is not yet uploaded.

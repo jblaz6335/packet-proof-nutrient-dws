@@ -6,3 +6,13 @@ __pycache__/
 .env
 *.db
 artifacts/private/
+.pytest_cache/
+.ruff_cache/
+.coverage
+submission-assets/chrome-*/
+submission-assets/*.png
+submission-assets/*.wav
+submission-assets/segment-*.mp4
+submission-assets/segments.txt
+submission-assets/speech-temp.ps1
+submission-assets/packet-proof-demo.mp4
