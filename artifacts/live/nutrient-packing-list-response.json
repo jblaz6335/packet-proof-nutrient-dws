@@ -1,0 +1,6240 @@
+{
+  "pages": [
+    {
+      "keyValuePairs": [
+        {
+          "confidence": 100,
+          "key": {
+            "bbox": {
+              "height": 6.24,
+              "left": 81.6,
+              "top": 207.84,
+              "width": 65.04
+            },
+            "content": "Purchase order"
+          },
+          "value": {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 207.84,
+              "width": 35.28
+            },
+            "content": "PO-8814",
+            "dataType": "UID"
+          }
+        },
+        {
+          "confidence": 74.94342,
+          "key": {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.6,
+              "top": 179.76,
+              "width": 49.2
+            },
+            "content": "Packing list"
+          },
+          "value": {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 179.76,
+              "width": 34.079998
+            },
+            "content": "PK-2048",
+            "dataType": "UID"
+          }
+        },
+        {
+          "confidence": 71.02552,
+          "key": {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.6,
+              "top": 235.68,
+              "width": 39.36
+            },
+            "content": "Packages"
+          },
+          "value": {
+            "bbox": {
+              "height": 6,
+              "left": 199.92,
+              "top": 236.15999,
+              "width": 35.76
+            },
+            "content": "4 cartons",
+            "dataType": "String"
+          }
+        },
+        {
+          "confidence": 70.28207,
+          "key": {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.36,
+              "top": 151.68,
+              "width": 35.28
+            },
+            "content": "Supplier"
+          },
+          "value": {
+            "bbox": {
+              "height": 7.68,
+              "left": 200.15999,
+              "top": 151.68,
+              "width": 107.28
+            },
+            "content": "Northstar Components LLC",
+            "dataType": "String"
+          }
+        },
+        {
+          "confidence": 70.02693,
+          "key": {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.36,
+              "top": 263.75998,
+              "width": 56.64
+            },
+            "content": "Gross weight"
+          },
+          "value": {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 200.64,
+              "top": 263.75998,
+              "width": 25.199999
+            },
+            "content": "186 kg",
+            "dataType": "String"
+          }
+        },
+        {
+          "confidence": 89.78036,
+          "key": {
+            "bbox": {
+              "height": 6.24,
+              "left": 81.6,
+              "top": 291.84,
+              "width": 47.28
+            },
+            "content": "Destination"
+          },
+          "value": {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 200.15999,
+              "top": 291.84,
+              "width": 165.12
+            },
+            "content": "Fictional Harbor Imports, Long Beach, CA",
+            "dataType": "String"
+          }
+        }
+      ],
+      "plainText": "PACKET PROOF /SOURCE 2 OF 3\r\n\r\n\r\nPacking List\r\n\r\n\r\nFICTIONAL SYNTHETIC HACKATHON FIXTURE -INOT A COMMERCIAL DOCUMENT\r\n\r\n\r\n\r\n         Supplier                                        Northstar Components LLC\r\n\r\n\r\n         Packing list                                   PK-2048\r\n\r\n\r\n         Purchase order                            PO-8814\r\n\r\n\r\n         Packages                                      4 cartons\r\n\r\n\r\n         Gross weight                                186 kg\r\n\r\n\r\n         Destination                                  Fictional Harbor Imports, Long Beach, CA\r\n\r\n\r\n\r\n\r\n           SKU                          Description                                                                               Packed quantity              Cartons\r\n\r\n\r\n           AX-410                    Control module                                                                                                         22                               3\r\n\r\n\r\n           BX-205                     Mounting kit                                                                                                             12                               1\r\n\r\n\r\n\r\nException intentionally embedded: AX-410 packing quantity is 22 while the commercial invoice states 24.\r\n\r\n\r\n\r\nSynthetic fixture. The quantity mismatch is deliberate and is the expected deterministic review finding.",
+      "structuredText": {
+        "characters": [
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 60.719997,
+              "top": 56.879997,
+              "width": 3.12
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 65.28,
+              "top": 56.64,
+              "width": 4.56
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 70.799995,
+              "top": 56.64,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 77.04,
+              "top": 56.64,
+              "width": 3.6
+            },
+            "value": "K"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 82.32,
+              "top": 56.64,
+              "width": 3.12
+            },
+            "value": "E"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 87.119995,
+              "top": 56.64,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 94.799995,
+              "top": 56.64,
+              "width": 3.36
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 100.079994,
+              "top": 56.64,
+              "width": 3.6
+            },
+            "value": "R"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 105.6,
+              "top": 56.64,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 111.84,
+              "top": 56.64,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 118.32,
+              "top": 56.64,
+              "width": 2.8799999
+            },
+            "value": "F"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 125.04,
+              "top": 56.399998,
+              "width": 2.8799999
+            },
+            "value": "/"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 129.59999,
+              "top": 56.64,
+              "width": 3.12
+            },
+            "value": "S"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 134.87999,
+              "top": 56.64,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 141.36,
+              "top": 56.64,
+              "width": 4.08
+            },
+            "value": "U"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 147.12,
+              "top": 56.64,
+              "width": 3.6
+            },
+            "value": "R"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 152.64,
+              "top": 56.64,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 158.64,
+              "top": 56.64,
+              "width": 3.12
+            },
+            "value": "E"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 166.31999,
+              "top": 56.64,
+              "width": 3.36
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 172.8,
+              "top": 56.879997,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 179.28,
+              "top": 56.879997,
+              "width": 2.8799999
+            },
+            "value": "F"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 186.23999,
+              "top": 56.879997,
+              "width": 3.12
+            },
+            "value": "3"
+          },
+          {
+            "bbox": {
+              "height": 16.32,
+              "left": 61.44,
+              "top": 80.64,
+              "width": 11.28
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 12.719999,
+              "left": 77.52,
+              "top": 84.479996,
+              "width": 10.08
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 12.48,
+              "left": 91.2,
+              "top": 84.72,
+              "width": 9.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 17.52,
+              "left": 105.6,
+              "top": 79.439995,
+              "width": 10.559999
+            },
+            "value": "k"
+          },
+          {
+            "bbox": {
+              "height": 17.52,
+              "left": 119.28,
+              "top": 79.439995,
+              "width": 4.08
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 12.24,
+              "left": 126.71999,
+              "top": 84.72,
+              "width": 10.8
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 16.56,
+              "left": 141.12,
+              "top": 84.72,
+              "width": 11.04
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 16.32,
+              "left": 163.92,
+              "top": 80.64,
+              "width": 8.88
+            },
+            "value": "L"
+          },
+          {
+            "bbox": {
+              "height": 17.52,
+              "left": 179.04,
+              "top": 79.439995,
+              "width": 4.08
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 12.48,
+              "left": 185.76,
+              "top": 84.72,
+              "width": 8.639999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 16.08,
+              "left": 199.2,
+              "top": 81.119995,
+              "width": 7.9199996
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 60.48,
+              "top": 115.68,
+              "width": 2.8799999
+            },
+            "value": "F"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 65.52,
+              "top": 115.68,
+              "width": 0.71999997
+            },
+            "value": "I"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 67.439995,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 72.96,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 78.479996,
+              "top": 115.68,
+              "width": 0.71999997
+            },
+            "value": "I"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 80.159996,
+              "top": 115.68,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 86.64,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "N"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 91.92,
+              "top": 115.68,
+              "width": 4.56
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 97.92,
+              "top": 115.68,
+              "width": 2.8799999
+            },
+            "value": "L"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 104.159996,
+              "top": 115.68,
+              "width": 3.12
+            },
+            "value": "S"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 109.439995,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "Y"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 115.2,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "N"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 120.479996,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 125.759995,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "H"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 131.52,
+              "top": 115.68,
+              "width": 3.12
+            },
+            "value": "E"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 136.56,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 142.08,
+              "top": 115.68,
+              "width": 0.71999997
+            },
+            "value": "I"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 143.76,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 152.16,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "H"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 157.44,
+              "top": 115.68,
+              "width": 4.56
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 162.95999,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 168.95999,
+              "top": 115.68,
+              "width": 3.6
+            },
+            "value": "K"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 173.76,
+              "top": 115.68,
+              "width": 4.56
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 179.04,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 184.56,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "H"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 190.08,
+              "top": 115.68,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 196.56,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "N"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 204.48,
+              "top": 115.68,
+              "width": 2.8799999
+            },
+            "value": "F"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 209.51999,
+              "top": 115.68,
+              "width": 0.71999997
+            },
+            "value": "I"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 211.2,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "X"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 216.48,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 221.76,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "U"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 227.51999,
+              "top": 115.68,
+              "width": 3.6
+            },
+            "value": "R"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 233.28,
+              "top": 115.68,
+              "width": 3.12
+            },
+            "value": "E"
+          },
+          {
+            "bbox": {
+              "height": 0.71999997,
+              "left": 240.72,
+              "top": 118.32,
+              "width": 1.92
+            },
+            "value": "-"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 245.76,
+              "top": 115.92,
+              "width": 1.1999999
+            },
+            "value": "I"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 246.72,
+              "top": 115.68,
+              "width": 3.12
+            },
+            "value": "N"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 251.28,
+              "top": 115.68,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 257.28,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 264.47998,
+              "top": 115.92,
+              "width": 4.56
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 272.16,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 277.91998,
+              "top": 115.68,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 284.63998,
+              "top": 115.68,
+              "width": 5.52
+            },
+            "value": "M"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 291.36,
+              "top": 115.68,
+              "width": 5.52
+            },
+            "value": "M"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 297.84,
+              "top": 115.68,
+              "width": 3.12
+            },
+            "value": "E"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 303.12,
+              "top": 115.68,
+              "width": 3.6
+            },
+            "value": "R"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 308.63998,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 314.88,
+              "top": 115.68,
+              "width": 0.71999997
+            },
+            "value": "I"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 316.56,
+              "top": 115.68,
+              "width": 4.56
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 322.32,
+              "top": 115.68,
+              "width": 2.8799999
+            },
+            "value": "L"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 329.03998,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "D"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 334.56,
+              "top": 115.68,
+              "width": 4.7999997
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 340.8,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 346.8,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "U"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 352.8,
+              "top": 115.68,
+              "width": 5.52
+            },
+            "value": "M"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 359.28,
+              "top": 115.68,
+              "width": 3.12
+            },
+            "value": "E"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 364.56,
+              "top": 115.68,
+              "width": 4.08
+            },
+            "value": "N"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 369.84,
+              "top": 115.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 81.36,
+              "top": 151.92,
+              "width": 3.84
+            },
+            "value": "S"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 87.6,
+              "top": 153.59999,
+              "width": 3.84
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 92.88,
+              "top": 153.36,
+              "width": 4.08
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 98.4,
+              "top": 153.36,
+              "width": 4.08
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 103.92,
+              "top": 151.68,
+              "width": 1.1999999
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 106.56,
+              "top": 151.68,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 108.72,
+              "top": 153.36,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 114,
+              "top": 153.36,
+              "width": 2.6399999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 200.15999,
+              "top": 152.16,
+              "width": 4.7999997
+            },
+            "value": "N"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 206.64,
+              "top": 153.59999,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 211.68,
+              "top": 153.59999,
+              "width": 2.8799999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 214.31999,
+              "top": 152.16,
+              "width": 2.6399999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 216.72,
+              "top": 151.68,
+              "width": 4.3199997
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 222,
+              "top": 153.36,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 226.31999,
+              "top": 152.16,
+              "width": 2.6399999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 228.72,
+              "top": 153.59999,
+              "width": 3.84
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 234.23999,
+              "top": 153.36,
+              "width": 2.3999999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 239.51999,
+              "top": 152.16,
+              "width": 4.3199997
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 246,
+              "top": 153.59999,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 251.28,
+              "top": 153.36,
+              "width": 6.24
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 258.72,
+              "top": 153.36,
+              "width": 4.08
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 263.52,
+              "top": 153.59999,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 268.8,
+              "top": 153.36,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 273.6,
+              "top": 153.59999,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 278.88,
+              "top": 153.36,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 283.44,
+              "top": 152.16,
+              "width": 2.6399999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 285.84,
+              "top": 153.59999,
+              "width": 3.36
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 293.28,
+              "top": 152.16,
+              "width": 3.36
+            },
+            "value": "L"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 298.32,
+              "top": 152.16,
+              "width": 3.36
+            },
+            "value": "L"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 303.12,
+              "top": 151.92,
+              "width": 4.3199997
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 81.6,
+              "top": 180.23999,
+              "width": 4.08
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 87.36,
+              "top": 181.44,
+              "width": 3.84
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 92.159996,
+              "top": 181.44,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 97.439995,
+              "top": 179.76,
+              "width": 3.84
+            },
+            "value": "k"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 102.479996,
+              "top": 179.76,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 104.88,
+              "top": 181.44,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 110.159996,
+              "top": 181.44,
+              "width": 3.84
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 118.56,
+              "top": 179.76,
+              "width": 1.1999999
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 120.96,
+              "top": 179.76,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 123.36,
+              "top": 181.44,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 127.92,
+              "top": 180.23999,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 200.15999,
+              "top": 180.23999,
+              "width": 4.08
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 206.4,
+              "top": 180.23999,
+              "width": 4.08
+            },
+            "value": "K"
+          },
+          {
+            "bbox": {
+              "height": 0.71999997,
+              "left": 212.15999,
+              "top": 183.12,
+              "width": 2.3999999
+            },
+            "value": "-"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 215.04,
+              "top": 180,
+              "width": 4.08
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 220.08,
+              "top": 180,
+              "width": 4.08
+            },
+            "value": "0"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 225.12,
+              "top": 180.23999,
+              "width": 4.3199997
+            },
+            "value": "4"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 230.15999,
+              "top": 179.76,
+              "width": 4.08
+            },
+            "value": "8"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 81.6,
+              "top": 208.31999,
+              "width": 4.08
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 87.6,
+              "top": 209.76,
+              "width": 3.84
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 92.88,
+              "top": 209.51999,
+              "width": 2.6399999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 96.24,
+              "top": 209.51999,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 101.52,
+              "top": 207.84,
+              "width": 3.84
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 106.799995,
+              "top": 209.51999,
+              "width": 3.84
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 111.84,
+              "top": 209.51999,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 116.64,
+              "top": 209.51999,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 124.32,
+              "top": 209.51999,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 130.08,
+              "top": 209.51999,
+              "width": 2.6399999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 133.2,
+              "top": 207.84,
+              "width": 4.08
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 138.72,
+              "top": 209.51999,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 144,
+              "top": 209.51999,
+              "width": 2.6399999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 200.15999,
+              "top": 208.31999,
+              "width": 4.08
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 206.15999,
+              "top": 208.08,
+              "width": 5.52
+            },
+            "value": "O"
+          },
+          {
+            "bbox": {
+              "height": 0.71999997,
+              "left": 213.12,
+              "top": 211.2,
+              "width": 2.3999999
+            },
+            "value": "-"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 216,
+              "top": 207.84,
+              "width": 4.08
+            },
+            "value": "8"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 221.04,
+              "top": 207.84,
+              "width": 4.08
+            },
+            "value": "8"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 226.56,
+              "top": 208.08,
+              "width": 3.6
+            },
+            "value": "1"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 231.12,
+              "top": 208.31999,
+              "width": 4.3199997
+            },
+            "value": "4"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 81.6,
+              "top": 236.15999,
+              "width": 4.08
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 87.36,
+              "top": 237.36,
+              "width": 3.84
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 92.159996,
+              "top": 237.36,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 97.439995,
+              "top": 235.68,
+              "width": 3.84
+            },
+            "value": "k"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 102.24,
+              "top": 237.36,
+              "width": 3.84
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 107.28,
+              "top": 237.36,
+              "width": 4.08
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 112.799995,
+              "top": 237.36,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 117.84,
+              "top": 237.36,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 199.92,
+              "top": 236.15999,
+              "width": 4.3199997
+            },
+            "value": "4"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 207.59999,
+              "top": 237.36,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 212.15999,
+              "top": 237.36,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 217.2,
+              "top": 237.59999,
+              "width": 2.8799999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 219.84,
+              "top": 236.15999,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 222.48,
+              "top": 237.59999,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 227.76,
+              "top": 237.36,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 232.56,
+              "top": 237.36,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 81.36,
+              "top": 264,
+              "width": 5.04
+            },
+            "value": "G"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 88.56,
+              "top": 265.44,
+              "width": 2.6399999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 91.68,
+              "top": 265.44,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 97.2,
+              "top": 265.44,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 102.24,
+              "top": 265.44,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 109.439995,
+              "top": 265.68,
+              "width": 6.72
+            },
+            "value": "w"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 116.64,
+              "top": 265.44,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 121.92,
+              "top": 263.75998,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 124.32,
+              "top": 265.44,
+              "width": 4.08
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 130.08,
+              "top": 263.75998,
+              "width": 3.84
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 135.12,
+              "top": 264.24,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 200.64,
+              "top": 264,
+              "width": 3.36
+            },
+            "value": "1"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 204.95999,
+              "top": 263.75998,
+              "width": 4.08
+            },
+            "value": "8"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 210,
+              "top": 263.75998,
+              "width": 4.08
+            },
+            "value": "6"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 217.68,
+              "top": 263.75998,
+              "width": 3.6
+            },
+            "value": "k"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 222,
+              "top": 265.44,
+              "width": 3.84
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 81.6,
+              "top": 292.32,
+              "width": 5.04
+            },
+            "value": "D"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 87.84,
+              "top": 293.52,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 92.64,
+              "top": 293.52,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 97.439995,
+              "top": 292.32,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 101.04,
+              "top": 291.84,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 103.439995,
+              "top": 293.52,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 108.72,
+              "top": 293.52,
+              "width": 3.84
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 113.52,
+              "top": 292.32,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 116.88,
+              "top": 291.84,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 119.28,
+              "top": 293.52,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 125.04,
+              "top": 293.52,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 200.15999,
+              "top": 292.32,
+              "width": 3.6
+            },
+            "value": "F"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 205.68,
+              "top": 291.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 207.59999,
+              "top": 293.52,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 211.68,
+              "top": 292.32,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 214.79999,
+              "top": 291.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 216.48,
+              "top": 293.75998,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 221.76,
+              "top": 293.52,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 226.56,
+              "top": 293.52,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 231.84,
+              "top": 291.84,
+              "width": 0.96
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 236.4,
+              "top": 292.32,
+              "width": 4.56
+            },
+            "value": "H"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 242.64,
+              "top": 293.52,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 247.68,
+              "top": 293.52,
+              "width": 2.6399999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 250.79999,
+              "top": 291.84,
+              "width": 4.08
+            },
+            "value": "b"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 255.59999,
+              "top": 293.75998,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 260.88,
+              "top": 293.52,
+              "width": 2.3999999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 266.63998,
+              "top": 292.32,
+              "width": 0.96
+            },
+            "value": "I"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 268.8,
+              "top": 293.52,
+              "width": 6.24
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 276.24,
+              "top": 293.52,
+              "width": 4.08
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 281.04,
+              "top": 293.75998,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 286.32,
+              "top": 293.75998,
+              "width": 2.6399999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 288.72,
+              "top": 292.32,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 291.36,
+              "top": 293.75998,
+              "width": 3.36
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 2.3999999,
+              "left": 296.4,
+              "top": 296.88,
+              "width": 1.1999999
+            },
+            "value": ","
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 301.19998,
+              "top": 292.32,
+              "width": 3.36
+            },
+            "value": "L"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 306,
+              "top": 293.75998,
+              "width": 4.3199997
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 311.28,
+              "top": 293.52,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 316.08,
+              "top": 293.52,
+              "width": 3.84
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 323.75998,
+              "top": 292.32,
+              "width": 4.08
+            },
+            "value": "B"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 329.52,
+              "top": 293.75998,
+              "width": 4.08
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 334.56,
+              "top": 293.52,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.7999997,
+              "left": 339.6,
+              "top": 293.52,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 344.4,
+              "top": 291.84,
+              "width": 3.84
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 2.1599998,
+              "left": 349.44,
+              "top": 296.88,
+              "width": 1.1999999
+            },
+            "value": ","
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 354,
+              "top": 292.08,
+              "width": 4.3199997
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 360.24,
+              "top": 292.32,
+              "width": 5.04
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 85.2,
+              "top": 367.91998,
+              "width": 4.7999997
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 90.96,
+              "top": 367.91998,
+              "width": 4.3199997
+            },
+            "value": "X"
+          },
+          {
+            "bbox": {
+              "height": 0.96,
+              "left": 96.72,
+              "top": 370.56,
+              "width": 2.1599998
+            },
+            "value": "-"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 99.36,
+              "top": 367.91998,
+              "width": 4.3199997
+            },
+            "value": "4"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 104.88,
+              "top": 367.91998,
+              "width": 3.36
+            },
+            "value": "1"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 108.96,
+              "top": 367.91998,
+              "width": 3.84
+            },
+            "value": "0"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 157.44,
+              "top": 367.91998,
+              "width": 4.08
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 163.68,
+              "top": 369.12,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.08,
+              "left": 168.48,
+              "top": 369.36,
+              "width": 3.6
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 172.8,
+              "top": 367.91998,
+              "width": 2.6399999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.08,
+              "left": 175.68,
+              "top": 369.36,
+              "width": 2.3999999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 178.31999,
+              "top": 369.12,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 183.12,
+              "top": 367.44,
+              "width": 0.96
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 187.44,
+              "top": 369.12,
+              "width": 5.7599998
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 194.15999,
+              "top": 369.12,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 198.95999,
+              "top": 367.44,
+              "width": 3.6
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 204,
+              "top": 369.36,
+              "width": 3.6
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 208.79999,
+              "top": 367.44,
+              "width": 0.96
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 210.23999,
+              "top": 369.36,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 445.68,
+              "top": 367.91998,
+              "width": 3.84
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 450.24,
+              "top": 367.91998,
+              "width": 3.84
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 522.48,
+              "top": 367.91998,
+              "width": 3.6
+            },
+            "value": "3"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 85.68,
+              "top": 396,
+              "width": 3.84
+            },
+            "value": "B"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 90.96,
+              "top": 396,
+              "width": 4.3199997
+            },
+            "value": "X"
+          },
+          {
+            "bbox": {
+              "height": 0.96,
+              "left": 96.72,
+              "top": 398.63998,
+              "width": 2.1599998
+            },
+            "value": "-"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 99.6,
+              "top": 396,
+              "width": 3.84
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 104.399994,
+              "top": 396,
+              "width": 3.84
+            },
+            "value": "0"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 109.2,
+              "top": 396,
+              "width": 3.36
+            },
+            "value": "5"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 157.92,
+              "top": 396,
+              "width": 6
+            },
+            "value": "M"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 164.64,
+              "top": 397.19998,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 169.44,
+              "top": 397.44,
+              "width": 3.6
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 4.08,
+              "left": 174.23999,
+              "top": 397.44,
+              "width": 3.6
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 178.56,
+              "top": 396,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 180.72,
+              "top": 395.52,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.08,
+              "left": 183.12,
+              "top": 397.44,
+              "width": 3.6
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 187.68,
+              "top": 397.19998,
+              "width": 3.6
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 195.12,
+              "top": 395.52,
+              "width": 3.36
+            },
+            "value": "k"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 199.2,
+              "top": 395.52,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 200.64,
+              "top": 396,
+              "width": 2.6399999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 446.16,
+              "top": 396,
+              "width": 3.36
+            },
+            "value": "1"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 450.24,
+              "top": 396,
+              "width": 3.84
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 522.72,
+              "top": 396,
+              "width": 3.36
+            },
+            "value": "1"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 85.2,
+              "top": 339.84,
+              "width": 3.84
+            },
+            "value": "S"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 91.2,
+              "top": 340.08,
+              "width": 4.56
+            },
+            "value": "K"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 97.439995,
+              "top": 340.08,
+              "width": 4.7999997
+            },
+            "value": "U"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 157.68,
+              "top": 340.08,
+              "width": 4.7999997
+            },
+            "value": "D"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 163.68,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 168.23999,
+              "top": 341.28,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 173.04,
+              "top": 341.28,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 178.08,
+              "top": 341.28,
+              "width": 2.3999999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 180.95999,
+              "top": 339.6,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 183.59999,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 188.4,
+              "top": 340.08,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 191.51999,
+              "top": 339.6,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 193.92,
+              "top": 341.28,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 199.2,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 373.68,
+              "top": 340.08,
+              "width": 3.84
+            },
+            "value": "P"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 379.19998,
+              "top": 341.28,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 383.75998,
+              "top": 341.28,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 388.56,
+              "top": 339.6,
+              "width": 3.84
+            },
+            "value": "k"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 393.36,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 397.91998,
+              "top": 339.6,
+              "width": 3.84
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 405.6,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "q"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 410.88,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 415.91998,
+              "top": 341.28,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 420.96,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 425.52,
+              "top": 340.08,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 428.63998,
+              "top": 339.6,
+              "width": 1.4399999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 430.8,
+              "top": 340.08,
+              "width": 3.12
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 433.68,
+              "top": 341.28,
+              "width": 4.08
+            },
+            "value": "y"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 466.8,
+              "top": 339.84,
+              "width": 4.56
+            },
+            "value": "C"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 473.28,
+              "top": 341.28,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 478.08,
+              "top": 341.28,
+              "width": 2.3999999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 480.96,
+              "top": 340.08,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 484.08,
+              "top": 341.28,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 489.36,
+              "top": 341.28,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 4.56,
+              "left": 494.4,
+              "top": 341.28,
+              "width": 3.12
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 60.719997,
+              "top": 430.31998,
+              "width": 3.36
+            },
+            "value": "E"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 66.24,
+              "top": 431.75998,
+              "width": 3.6
+            },
+            "value": "x"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 70.799995,
+              "top": 431.75998,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 75.36,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 80.4,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 84.96,
+              "top": 430.31998,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 88.08,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 89.759995,
+              "top": 431.75998,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 95.04,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 102.479996,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 104.399994,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 108.96,
+              "top": 430.31998,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 111.84,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 117.119995,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 121.439995,
+              "top": 430.31998,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 124.56,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 126.24,
+              "top": 431.75998,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 131.52,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 136.31999,
+              "top": 431.75998,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 141.84,
+              "top": 429.84,
+              "width": 0.71999997
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 143.76,
+              "top": 429.84,
+              "width": 0.71999997
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 144.95999,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "y"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 152.4,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 157.68,
+              "top": 431.75998,
+              "width": 6
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 165.36,
+              "top": 429.84,
+              "width": 3.6
+            },
+            "value": "b"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 169.68,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 174.72,
+              "top": 429.84,
+              "width": 3.84
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 179.76,
+              "top": 429.84,
+              "width": 3.84
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 184.8,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 189.84,
+              "top": 429.84,
+              "width": 3.84
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 4.08,
+              "left": 195.36,
+              "top": 432,
+              "width": 0.96
+            },
+            "value": ":"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 199.92,
+              "top": 430.31998,
+              "width": 5.04
+            },
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 205.68,
+              "top": 430.31998,
+              "width": 4.56
+            },
+            "value": "X"
+          },
+          {
+            "bbox": {
+              "height": 0.71999997,
+              "left": 211.92,
+              "top": 433.19998,
+              "width": 2.1599998
+            },
+            "value": "-"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 214.79999,
+              "top": 430.31998,
+              "width": 4.3199997
+            },
+            "value": "4"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 220.31999,
+              "top": 430.31998,
+              "width": 3.36
+            },
+            "value": "1"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 224.87999,
+              "top": 430.31998,
+              "width": 4.08
+            },
+            "value": "0"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 232.56,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 237.36,
+              "top": 431.75998,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 242.4,
+              "top": 431.75998,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 246.95999,
+              "top": 429.84,
+              "width": 3.36
+            },
+            "value": "k"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 251.51999,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 253.68,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 258.24,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 265.91998,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "q"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 271.19998,
+              "top": 431.75998,
+              "width": 3.6
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 275.75998,
+              "top": 431.75998,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 281.04,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 285.6,
+              "top": 430.31998,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 288.72,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 290.16,
+              "top": 430.31998,
+              "width": 3.12
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 293.04,
+              "top": 431.75998,
+              "width": 3.36
+            },
+            "value": "y"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 300,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 302.16,
+              "top": 431.75998,
+              "width": 2.6399999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 309.12,
+              "top": 430.31998,
+              "width": 3.84
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 314.16,
+              "top": 430.31998,
+              "width": 3.84
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 321.36,
+              "top": 431.75998,
+              "width": 6
+            },
+            "value": "w"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 328.08,
+              "top": 429.84,
+              "width": 3.84
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 333.12,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 335.28,
+              "top": 429.84,
+              "width": 0.71999997
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 336.96,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 344.4,
+              "top": 430.31998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 346.56,
+              "top": 429.84,
+              "width": 4.3199997
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 351.84,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 359.28,
+              "top": 431.75998,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 363.84,
+              "top": 431.75998,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 369.36,
+              "top": 431.75998,
+              "width": 6
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 376.8,
+              "top": 431.75998,
+              "width": 6
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 384,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 389.03998,
+              "top": 431.75998,
+              "width": 2.3999999
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 391.91998,
+              "top": 431.75998,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 396.72,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 398.4,
+              "top": 431.75998,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 403.91998,
+              "top": 429.84,
+              "width": 0.71999997
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 408.24,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 410.16,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 414.72,
+              "top": 431.75998,
+              "width": 4.08
+            },
+            "value": "v"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 419.28,
+              "top": 431.75998,
+              "width": 4.08
+            },
+            "value": "o"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 424.56,
+              "top": 429.84,
+              "width": 1.1999999
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 426.47998,
+              "top": 431.75998,
+              "width": 3.36
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 430.8,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 438.72,
+              "top": 431.75998,
+              "width": 2.8799999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 442.56,
+              "top": 430.31998,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 445.44,
+              "top": 431.75998,
+              "width": 3.6
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 450.24,
+              "top": 430.31998,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 452.88,
+              "top": 431.75998,
+              "width": 3.84
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 4.3199997,
+              "left": 458.16,
+              "top": 431.75998,
+              "width": 2.6399999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 465.12,
+              "top": 430.31998,
+              "width": 3.84
+            },
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 469.91998,
+              "top": 430.31998,
+              "width": 4.08
+            },
+            "value": "4"
+          },
+          {
+            "bbox": {
+              "height": 0.96,
+              "left": 475.19998,
+              "top": 435.12,
+              "width": 1.1999999
+            },
+            "value": "."
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 60.239998,
+              "top": 463.68,
+              "width": 3.12
+            },
+            "value": "S"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 65.28,
+              "top": 465.12,
+              "width": 3.6
+            },
+            "value": "y"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 69.84,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 73.68,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 76.56,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 80.64,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 84.96,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 87.6,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 89.04,
+              "top": 465.12,
+              "width": 2.8799999
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 95.28,
+              "top": 463.44,
+              "width": 2.1599998
+            },
+            "value": "f"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 97.92,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 99.36,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "x"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 103.2,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 105.84,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 110.159996,
+              "top": 465.12,
+              "width": 2.1599998
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 112.799995,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 0.96,
+              "left": 117.36,
+              "top": 468,
+              "width": 0.96
+            },
+            "value": "."
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 121.439995,
+              "top": 463.68,
+              "width": 3.84
+            },
+            "value": "T"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 126.71999,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 131.04,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 137.52,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "q"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 142.31999,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "u"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 146.4,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 151.2,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 155.04,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 157.92,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 159.12,
+              "top": 463.91998,
+              "width": 2.8799999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 161.76,
+              "top": 465.12,
+              "width": 2.8799999
+            },
+            "value": "y"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 168,
+              "top": 465.12,
+              "width": 5.52
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 174.72,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 176.4,
+              "top": 465.12,
+              "width": 2.6399999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 180.48,
+              "top": 465.12,
+              "width": 5.52
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 186.95999,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 191.04,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 193.68,
+              "top": 465.12,
+              "width": 2.8799999
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 197.76,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 204.48,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 206.15999,
+              "top": 465.12,
+              "width": 2.6399999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 212.4,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 216.72,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 221.51999,
+              "top": 463.44,
+              "width": 0.71999997
+            },
+            "value": "l"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 223.2,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 224.87999,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "b"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 229.2,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 233.76,
+              "top": 465.12,
+              "width": 2.1599998
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 236.4,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 240.48,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 242.87999,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 249.59999,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "a"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 254.4,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 258.47998,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 265.44,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 266.88,
+              "top": 465.12,
+              "width": 2.6399999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 273.12,
+              "top": 463.91998,
+              "width": 2.1599998
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 275.75998,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "h"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 279.84,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 286.56,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 291.12,
+              "top": 465.12,
+              "width": 3.12
+            },
+            "value": "x"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 295.19998,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "p"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 299.52,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 303.84,
+              "top": 465.12,
+              "width": 2.8799999
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 307.68,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 310.08,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 314.63998,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 321.36,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 325.68,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 330,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 332.4,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 336.96,
+              "top": 465.12,
+              "width": 2.1599998
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 339.6,
+              "top": 465.12,
+              "width": 5.52
+            },
+            "value": "m"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 346.32,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 348.24,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 352.56,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 354.24,
+              "top": 465.12,
+              "width": 2.6399999
+            },
+            "value": "s"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 357.84,
+              "top": 463.91998,
+              "width": 2.3999999
+            },
+            "value": "t"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 360.72,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 362.16,
+              "top": 465.12,
+              "width": 2.8799999
+            },
+            "value": "c"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 368.63998,
+              "top": 465.12,
+              "width": 2.1599998
+            },
+            "value": "r"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 371.03998,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 375.12,
+              "top": 465.12,
+              "width": 3.6
+            },
+            "value": "v"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 379.68,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 381.36,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "e"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 385.44,
+              "top": 465.12,
+              "width": 5.52
+            },
+            "value": "w"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 393.6,
+              "top": 463.44,
+              "width": 2.1599998
+            },
+            "value": "f"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 396.24,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 397.91998,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 402.24,
+              "top": 463.44,
+              "width": 3.36
+            },
+            "value": "d"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 406.8,
+              "top": 463.44,
+              "width": 0.96
+            },
+            "value": "i"
+          },
+          {
+            "bbox": {
+              "height": 3.84,
+              "left": 408.72,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "n"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 412.8,
+              "top": 465.12,
+              "width": 3.36
+            },
+            "value": "g"
+          },
+          {
+            "bbox": {
+              "height": 0.96,
+              "left": 417.59998,
+              "top": 468,
+              "width": 0.96
+            },
+            "value": "."
+          }
+        ],
+        "confidence": 95,
+        "lines": [
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 60.719997,
+              "top": 56.399998,
+              "width": 128.64
+            },
+            "firstWordIndex": 0,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 6
+          },
+          {
+            "bbox": {
+              "height": 21.84,
+              "left": 61.44,
+              "top": 79.439995,
+              "width": 145.68
+            },
+            "firstWordIndex": 6,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 60.48,
+              "top": 115.68,
+              "width": 313.19998
+            },
+            "firstWordIndex": 8,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 8
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.36,
+              "top": 151.68,
+              "width": 35.28
+            },
+            "firstWordIndex": 16,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 200.15999,
+              "top": 151.68,
+              "width": 107.28
+            },
+            "firstWordIndex": 17,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 3
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.6,
+              "top": 179.76,
+              "width": 49.2
+            },
+            "firstWordIndex": 20,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 179.76,
+              "width": 34.079998
+            },
+            "firstWordIndex": 22,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 81.6,
+              "top": 207.84,
+              "width": 65.04
+            },
+            "firstWordIndex": 23,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 207.84,
+              "width": 35.28
+            },
+            "firstWordIndex": 25,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.6,
+              "top": 235.68,
+              "width": 39.36
+            },
+            "firstWordIndex": 26,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 199.92,
+              "top": 236.15999,
+              "width": 35.76
+            },
+            "firstWordIndex": 27,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.36,
+              "top": 263.75998,
+              "width": 56.64
+            },
+            "firstWordIndex": 29,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 200.64,
+              "top": 263.75998,
+              "width": 25.199999
+            },
+            "firstWordIndex": 31,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 81.6,
+              "top": 291.84,
+              "width": 47.28
+            },
+            "firstWordIndex": 33,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 200.15999,
+              "top": 291.84,
+              "width": 165.12
+            },
+            "firstWordIndex": 34,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 6
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 85.2,
+              "top": 367.91998,
+              "width": 27.599998
+            },
+            "firstWordIndex": 40,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 157.44,
+              "top": 367.44,
+              "width": 56.64
+            },
+            "firstWordIndex": 41,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 445.68,
+              "top": 367.91998,
+              "width": 8.4
+            },
+            "firstWordIndex": 43,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 522.48,
+              "top": 367.91998,
+              "width": 3.6
+            },
+            "firstWordIndex": 44,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 85.68,
+              "top": 396,
+              "width": 26.88
+            },
+            "firstWordIndex": 45,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 157.92,
+              "top": 395.52,
+              "width": 45.36
+            },
+            "firstWordIndex": 46,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 446.16,
+              "top": 396,
+              "width": 7.9199996
+            },
+            "firstWordIndex": 48,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 522.72,
+              "top": 396,
+              "width": 3.36
+            },
+            "firstWordIndex": 49,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 85.2,
+              "top": 339.84,
+              "width": 17.039999
+            },
+            "firstWordIndex": 50,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 157.68,
+              "top": 339.6,
+              "width": 45.36
+            },
+            "firstWordIndex": 51,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 373.68,
+              "top": 339.6,
+              "width": 64.08
+            },
+            "firstWordIndex": 52,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 2
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 466.8,
+              "top": 339.84,
+              "width": 30.72
+            },
+            "firstWordIndex": 54,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 60.719997,
+              "top": 429.84,
+              "width": 415.68
+            },
+            "firstWordIndex": 55,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 14
+          },
+          {
+            "bbox": {
+              "height": 6.96,
+              "left": 60.239998,
+              "top": 463.44,
+              "width": 358.31998
+            },
+            "firstWordIndex": 69,
+            "isRTL": false,
+            "isVertical": false,
+            "wordCount": 14
+          }
+        ],
+        "paragraphs": [
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 60.719997,
+              "top": 56.399998,
+              "width": 128.64
+            },
+            "firstLineIndex": 0,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 21.84,
+              "left": 61.44,
+              "top": 79.439995,
+              "width": 145.68
+            },
+            "firstLineIndex": 1,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 60.48,
+              "top": 115.68,
+              "width": 313.19998
+            },
+            "firstLineIndex": 2,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 251.28,
+              "left": 81.36,
+              "top": 151.68,
+              "width": 444.72
+            },
+            "firstLineIndex": 3,
+            "lineCount": 20
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 85.2,
+              "top": 339.84,
+              "width": 17.039999
+            },
+            "firstLineIndex": 23,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 157.68,
+              "top": 339.6,
+              "width": 45.36
+            },
+            "firstLineIndex": 24,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 373.68,
+              "top": 339.6,
+              "width": 64.08
+            },
+            "firstLineIndex": 25,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 466.8,
+              "top": 339.84,
+              "width": 30.72
+            },
+            "firstLineIndex": 26,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 60.719997,
+              "top": 429.84,
+              "width": 415.68
+            },
+            "firstLineIndex": 27,
+            "lineCount": 1
+          },
+          {
+            "bbox": {
+              "height": 6.96,
+              "left": 60.239998,
+              "top": 463.44,
+              "width": 358.31998
+            },
+            "firstLineIndex": 28,
+            "lineCount": 1
+          }
+        ],
+        "words": [
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 60.719997,
+              "top": 56.64,
+              "width": 30.24
+            },
+            "characterCount": 6,
+            "confidence": 96.40179,
+            "firstCharacterIndex": 0,
+            "isFromDictionary": true,
+            "value": "PACKET"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 94.799995,
+              "top": 56.64,
+              "width": 26.4
+            },
+            "characterCount": 5,
+            "confidence": 89.84427,
+            "firstCharacterIndex": 6,
+            "isFromDictionary": true,
+            "value": "PROOF"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 125.04,
+              "top": 56.399998,
+              "width": 36.719997
+            },
+            "characterCount": 7,
+            "confidence": 91.419395,
+            "firstCharacterIndex": 11,
+            "isFromDictionary": false,
+            "value": "/SOURCE"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 166.31999,
+              "top": 56.64,
+              "width": 3.36
+            },
+            "characterCount": 1,
+            "confidence": 100,
+            "firstCharacterIndex": 18,
+            "isFromDictionary": false,
+            "value": "2"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 172.8,
+              "top": 56.879997,
+              "width": 9.36
+            },
+            "characterCount": 2,
+            "confidence": 100,
+            "firstCharacterIndex": 19,
+            "isFromDictionary": false,
+            "value": "OF"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 186.23999,
+              "top": 56.879997,
+              "width": 3.12
+            },
+            "characterCount": 1,
+            "confidence": 99.38841,
+            "firstCharacterIndex": 21,
+            "isFromDictionary": false,
+            "value": "3"
+          },
+          {
+            "bbox": {
+              "height": 21.84,
+              "left": 61.44,
+              "top": 79.439995,
+              "width": 90.72
+            },
+            "characterCount": 7,
+            "confidence": 96.50874,
+            "firstCharacterIndex": 22,
+            "isFromDictionary": true,
+            "value": "Packing"
+          },
+          {
+            "bbox": {
+              "height": 17.76,
+              "left": 163.92,
+              "top": 79.439995,
+              "width": 43.2
+            },
+            "characterCount": 4,
+            "confidence": 96.59192,
+            "firstCharacterIndex": 29,
+            "isFromDictionary": true,
+            "value": "List"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 60.48,
+              "top": 115.68,
+              "width": 40.32
+            },
+            "characterCount": 9,
+            "confidence": 94.11858,
+            "firstCharacterIndex": 33,
+            "isFromDictionary": true,
+            "value": "FICTIONAL"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 104.159996,
+              "top": 115.68,
+              "width": 43.44
+            },
+            "characterCount": 9,
+            "confidence": 93.16301,
+            "firstCharacterIndex": 42,
+            "isFromDictionary": true,
+            "value": "SYNTHETIC"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 152.16,
+              "top": 115.68,
+              "width": 48.48
+            },
+            "characterCount": 9,
+            "confidence": 91.07797,
+            "firstCharacterIndex": 51,
+            "isFromDictionary": false,
+            "value": "HACKATHON"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 204.48,
+              "top": 115.68,
+              "width": 31.92
+            },
+            "characterCount": 7,
+            "confidence": 92.226326,
+            "firstCharacterIndex": 60,
+            "isFromDictionary": true,
+            "value": "FIXTURE"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 240.72,
+              "top": 115.68,
+              "width": 20.4
+            },
+            "characterCount": 5,
+            "confidence": 99.429306,
+            "firstCharacterIndex": 67,
+            "isFromDictionary": false,
+            "value": "-INOT"
+          },
+          {
+            "bbox": {
+              "height": 5.04,
+              "left": 264.47998,
+              "top": 115.92,
+              "width": 4.56
+            },
+            "characterCount": 1,
+            "confidence": 49.450665,
+            "firstCharacterIndex": 72,
+            "isFromDictionary": true,
+            "value": "A"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 272.16,
+              "top": 115.68,
+              "width": 53.039997
+            },
+            "characterCount": 10,
+            "confidence": 49.450665,
+            "firstCharacterIndex": 73,
+            "isFromDictionary": true,
+            "value": "COMMERCIAL"
+          },
+          {
+            "bbox": {
+              "height": 5.2799997,
+              "left": 329.03998,
+              "top": 115.68,
+              "width": 44.64
+            },
+            "characterCount": 8,
+            "confidence": 95.00232,
+            "firstCharacterIndex": 83,
+            "isFromDictionary": true,
+            "value": "DOCUMENT"
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.36,
+              "top": 151.68,
+              "width": 35.28
+            },
+            "characterCount": 8,
+            "confidence": 96.614525,
+            "firstCharacterIndex": 91,
+            "isFromDictionary": true,
+            "value": "Supplier"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 151.68,
+              "width": 36.48
+            },
+            "characterCount": 9,
+            "confidence": 96.48745,
+            "firstCharacterIndex": 99,
+            "isFromDictionary": true,
+            "value": "Northstar"
+          },
+          {
+            "bbox": {
+              "height": 7.2,
+              "left": 239.51999,
+              "top": 152.16,
+              "width": 49.68
+            },
+            "characterCount": 10,
+            "confidence": 95.6879,
+            "firstCharacterIndex": 108,
+            "isFromDictionary": true,
+            "value": "Components"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 293.28,
+              "top": 151.92,
+              "width": 14.16
+            },
+            "characterCount": 3,
+            "confidence": 96.8456,
+            "firstCharacterIndex": 118,
+            "isFromDictionary": true,
+            "value": "LLC"
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.6,
+              "top": 179.76,
+              "width": 32.399998
+            },
+            "characterCount": 7,
+            "confidence": 95.469185,
+            "firstCharacterIndex": 121,
+            "isFromDictionary": true,
+            "value": "Packing"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 118.56,
+              "top": 179.76,
+              "width": 12.24
+            },
+            "characterCount": 4,
+            "confidence": 96.70791,
+            "firstCharacterIndex": 128,
+            "isFromDictionary": true,
+            "value": "list"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 179.76,
+              "width": 34.079998
+            },
+            "characterCount": 7,
+            "confidence": 100,
+            "firstCharacterIndex": 132,
+            "isFromDictionary": false,
+            "value": "PK-2048"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 81.6,
+              "top": 207.84,
+              "width": 39.12
+            },
+            "characterCount": 8,
+            "confidence": 95.39182,
+            "firstCharacterIndex": 139,
+            "isFromDictionary": true,
+            "value": "Purchase"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 124.32,
+              "top": 207.84,
+              "width": 22.32
+            },
+            "characterCount": 5,
+            "confidence": 95.39182,
+            "firstCharacterIndex": 147,
+            "isFromDictionary": true,
+            "value": "order"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 207.84,
+              "width": 35.28
+            },
+            "characterCount": 7,
+            "confidence": 90.43745,
+            "firstCharacterIndex": 152,
+            "isFromDictionary": false,
+            "value": "PO-8814"
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 81.6,
+              "top": 235.68,
+              "width": 39.36
+            },
+            "characterCount": 8,
+            "confidence": 96.372475,
+            "firstCharacterIndex": 159,
+            "isFromDictionary": true,
+            "value": "Packages"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 199.92,
+              "top": 236.15999,
+              "width": 4.3199997
+            },
+            "characterCount": 1,
+            "confidence": 99.99988,
+            "firstCharacterIndex": 167,
+            "isFromDictionary": false,
+            "value": "4"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 207.59999,
+              "top": 236.15999,
+              "width": 28.08
+            },
+            "characterCount": 7,
+            "confidence": 95.91374,
+            "firstCharacterIndex": 168,
+            "isFromDictionary": true,
+            "value": "cartons"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 81.36,
+              "top": 264,
+              "width": 24
+            },
+            "characterCount": 5,
+            "confidence": 96.49715,
+            "firstCharacterIndex": 175,
+            "isFromDictionary": true,
+            "value": "Gross"
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 109.439995,
+              "top": 263.75998,
+              "width": 28.56
+            },
+            "characterCount": 6,
+            "confidence": 96.18933,
+            "firstCharacterIndex": 180,
+            "isFromDictionary": true,
+            "value": "weight"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.64,
+              "top": 263.75998,
+              "width": 13.44
+            },
+            "characterCount": 3,
+            "confidence": 95.774536,
+            "firstCharacterIndex": 186,
+            "isFromDictionary": false,
+            "value": "186"
+          },
+          {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 217.68,
+              "top": 263.75998,
+              "width": 8.16
+            },
+            "characterCount": 2,
+            "confidence": 95.774536,
+            "firstCharacterIndex": 189,
+            "isFromDictionary": true,
+            "value": "kg"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 81.6,
+              "top": 291.84,
+              "width": 47.28
+            },
+            "characterCount": 11,
+            "confidence": 96.76769,
+            "firstCharacterIndex": 191,
+            "isFromDictionary": true,
+            "value": "Destination"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 200.15999,
+              "top": 291.84,
+              "width": 32.64
+            },
+            "characterCount": 9,
+            "confidence": 96.11645,
+            "firstCharacterIndex": 202,
+            "isFromDictionary": true,
+            "value": "Fictional"
+          },
+          {
+            "bbox": {
+              "height": 6.48,
+              "left": 236.4,
+              "top": 291.84,
+              "width": 26.88
+            },
+            "characterCount": 6,
+            "confidence": 96.40742,
+            "firstCharacterIndex": 211,
+            "isFromDictionary": true,
+            "value": "Harbor"
+          },
+          {
+            "bbox": {
+              "height": 7.2,
+              "left": 266.63998,
+              "top": 292.32,
+              "width": 30.96
+            },
+            "characterCount": 8,
+            "confidence": 95.51701,
+            "firstCharacterIndex": 217,
+            "isFromDictionary": true,
+            "value": "Imports,"
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 301.19998,
+              "top": 292.32,
+              "width": 18.72
+            },
+            "characterCount": 4,
+            "confidence": 95.30999,
+            "firstCharacterIndex": 225,
+            "isFromDictionary": true,
+            "value": "Long"
+          },
+          {
+            "bbox": {
+              "height": 7.2,
+              "left": 323.75998,
+              "top": 291.84,
+              "width": 26.88
+            },
+            "characterCount": 6,
+            "confidence": 96.25885,
+            "firstCharacterIndex": 229,
+            "isFromDictionary": true,
+            "value": "Beach,"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 354,
+              "top": 292.08,
+              "width": 11.28
+            },
+            "characterCount": 2,
+            "confidence": 96.43157,
+            "firstCharacterIndex": 235,
+            "isFromDictionary": true,
+            "value": "CA"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 85.2,
+              "top": 367.91998,
+              "width": 27.599998
+            },
+            "characterCount": 6,
+            "confidence": 91.47684,
+            "firstCharacterIndex": 237,
+            "isFromDictionary": false,
+            "value": "AX-410"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 157.44,
+              "top": 367.44,
+              "width": 26.64
+            },
+            "characterCount": 7,
+            "confidence": 94.863335,
+            "firstCharacterIndex": 243,
+            "isFromDictionary": true,
+            "value": "Control"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 187.44,
+              "top": 367.44,
+              "width": 26.64
+            },
+            "characterCount": 6,
+            "confidence": 96.11725,
+            "firstCharacterIndex": 250,
+            "isFromDictionary": true,
+            "value": "module"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 445.68,
+              "top": 367.91998,
+              "width": 8.4
+            },
+            "characterCount": 2,
+            "confidence": 99.82368,
+            "firstCharacterIndex": 256,
+            "isFromDictionary": false,
+            "value": "22"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 522.48,
+              "top": 367.91998,
+              "width": 3.6
+            },
+            "characterCount": 1,
+            "confidence": 99.99925,
+            "firstCharacterIndex": 258,
+            "isFromDictionary": false,
+            "value": "3"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 85.68,
+              "top": 396,
+              "width": 26.88
+            },
+            "characterCount": 6,
+            "confidence": 100,
+            "firstCharacterIndex": 259,
+            "isFromDictionary": false,
+            "value": "BX-205"
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 157.92,
+              "top": 395.52,
+              "width": 33.36
+            },
+            "characterCount": 8,
+            "confidence": 96.466064,
+            "firstCharacterIndex": 265,
+            "isFromDictionary": true,
+            "value": "Mounting"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 195.12,
+              "top": 395.52,
+              "width": 8.16
+            },
+            "characterCount": 3,
+            "confidence": 96.8912,
+            "firstCharacterIndex": 273,
+            "isFromDictionary": true,
+            "value": "kit"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 446.16,
+              "top": 396,
+              "width": 7.9199996
+            },
+            "characterCount": 2,
+            "confidence": 96.81167,
+            "firstCharacterIndex": 276,
+            "isFromDictionary": false,
+            "value": "12"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 522.72,
+              "top": 396,
+              "width": 3.36
+            },
+            "characterCount": 1,
+            "confidence": 100,
+            "firstCharacterIndex": 278,
+            "isFromDictionary": false,
+            "value": "1"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 85.2,
+              "top": 339.84,
+              "width": 17.039999
+            },
+            "characterCount": 3,
+            "confidence": 96.26567,
+            "firstCharacterIndex": 279,
+            "isFromDictionary": true,
+            "value": "SKU"
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 157.68,
+              "top": 339.6,
+              "width": 45.36
+            },
+            "characterCount": 11,
+            "confidence": 95.598145,
+            "firstCharacterIndex": 282,
+            "isFromDictionary": true,
+            "value": "Description"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 373.68,
+              "top": 339.6,
+              "width": 28.08
+            },
+            "characterCount": 6,
+            "confidence": 96.569115,
+            "firstCharacterIndex": 293,
+            "isFromDictionary": true,
+            "value": "Packed"
+          },
+          {
+            "bbox": {
+              "height": 7.44,
+              "left": 405.6,
+              "top": 339.6,
+              "width": 32.16
+            },
+            "characterCount": 8,
+            "confidence": 96.23552,
+            "firstCharacterIndex": 299,
+            "isFromDictionary": true,
+            "value": "quantity"
+          },
+          {
+            "bbox": {
+              "height": 6,
+              "left": 466.8,
+              "top": 339.84,
+              "width": 30.72
+            },
+            "characterCount": 7,
+            "confidence": 96.41547,
+            "firstCharacterIndex": 307,
+            "isFromDictionary": true,
+            "value": "Cartons"
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 60.719997,
+              "top": 429.84,
+              "width": 38.16
+            },
+            "characterCount": 9,
+            "confidence": 95.72768,
+            "firstCharacterIndex": 314,
+            "isFromDictionary": true,
+            "value": "Exception"
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 102.479996,
+              "top": 429.84,
+              "width": 46.32
+            },
+            "characterCount": 13,
+            "confidence": 95.72768,
+            "firstCharacterIndex": 323,
+            "isFromDictionary": true,
+            "value": "intentionally"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 152.4,
+              "top": 429.84,
+              "width": 43.92
+            },
+            "characterCount": 9,
+            "confidence": 93.2801,
+            "firstCharacterIndex": 336,
+            "isFromDictionary": true,
+            "value": "embedded:"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 199.92,
+              "top": 430.31998,
+              "width": 29.039999
+            },
+            "characterCount": 6,
+            "confidence": 91.88763,
+            "firstCharacterIndex": 345,
+            "isFromDictionary": false,
+            "value": "AX-410"
+          },
+          {
+            "bbox": {
+              "height": 7.9199996,
+              "left": 232.56,
+              "top": 429.84,
+              "width": 29.519999
+            },
+            "characterCount": 7,
+            "confidence": 96.67827,
+            "firstCharacterIndex": 351,
+            "isFromDictionary": true,
+            "value": "packing"
+          },
+          {
+            "bbox": {
+              "height": 7.68,
+              "left": 265.91998,
+              "top": 429.84,
+              "width": 30.48
+            },
+            "characterCount": 8,
+            "confidence": 94.34894,
+            "firstCharacterIndex": 358,
+            "isFromDictionary": true,
+            "value": "quantity"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 300,
+              "top": 429.84,
+              "width": 4.7999997
+            },
+            "characterCount": 2,
+            "confidence": 96.92027,
+            "firstCharacterIndex": 366,
+            "isFromDictionary": true,
+            "value": "is"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 309.12,
+              "top": 430.31998,
+              "width": 8.88
+            },
+            "characterCount": 2,
+            "confidence": 99.54602,
+            "firstCharacterIndex": 368,
+            "isFromDictionary": false,
+            "value": "22"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 321.36,
+              "top": 429.84,
+              "width": 19.439999
+            },
+            "characterCount": 5,
+            "confidence": 96.37653,
+            "firstCharacterIndex": 370,
+            "isFromDictionary": true,
+            "value": "while"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 344.4,
+              "top": 429.84,
+              "width": 11.28
+            },
+            "characterCount": 3,
+            "confidence": 96.51147,
+            "firstCharacterIndex": 375,
+            "isFromDictionary": true,
+            "value": "the"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 359.28,
+              "top": 429.84,
+              "width": 45.36
+            },
+            "characterCount": 10,
+            "confidence": 95.62464,
+            "firstCharacterIndex": 378,
+            "isFromDictionary": true,
+            "value": "commercial"
+          },
+          {
+            "bbox": {
+              "height": 6.24,
+              "left": 408.24,
+              "top": 429.84,
+              "width": 26.4
+            },
+            "characterCount": 7,
+            "confidence": 96.40315,
+            "firstCharacterIndex": 388,
+            "isFromDictionary": true,
+            "value": "invoice"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 438.72,
+              "top": 430.31998,
+              "width": 22.08
+            },
+            "characterCount": 6,
+            "confidence": 96.40957,
+            "firstCharacterIndex": 395,
+            "isFromDictionary": true,
+            "value": "states"
+          },
+          {
+            "bbox": {
+              "height": 5.7599998,
+              "left": 465.12,
+              "top": 430.31998,
+              "width": 11.28
+            },
+            "characterCount": 3,
+            "confidence": 99.67487,
+            "firstCharacterIndex": 401,
+            "isFromDictionary": false,
+            "value": "24."
+          },
+          {
+            "bbox": {
+              "height": 6.72,
+              "left": 60.239998,
+              "top": 463.44,
+              "width": 31.679998
+            },
+            "characterCount": 9,
+            "confidence": 68.55022,
+            "firstCharacterIndex": 404,
+            "isFromDictionary": true,
+            "value": "Synthetic"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 95.28,
+              "top": 463.44,
+              "width": 23.039999
+            },
+            "characterCount": 8,
+            "confidence": 96.772064,
+            "firstCharacterIndex": 413,
+            "isFromDictionary": true,
+            "value": "fixture."
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 121.439995,
+              "top": 463.44,
+              "width": 12.96
+            },
+            "characterCount": 3,
+            "confidence": 96.724686,
+            "firstCharacterIndex": 421,
+            "isFromDictionary": true,
+            "value": "The"
+          },
+          {
+            "bbox": {
+              "height": 6.72,
+              "left": 137.52,
+              "top": 463.44,
+              "width": 27.119999
+            },
+            "characterCount": 8,
+            "confidence": 96.60112,
+            "firstCharacterIndex": 424,
+            "isFromDictionary": true,
+            "value": "quantity"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 168,
+              "top": 463.44,
+              "width": 33.12
+            },
+            "characterCount": 8,
+            "confidence": 95.535194,
+            "firstCharacterIndex": 432,
+            "isFromDictionary": true,
+            "value": "mismatch"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 204.48,
+              "top": 463.44,
+              "width": 4.3199997
+            },
+            "characterCount": 2,
+            "confidence": 95.535194,
+            "firstCharacterIndex": 440,
+            "isFromDictionary": true,
+            "value": "is"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 212.4,
+              "top": 463.44,
+              "width": 33.84
+            },
+            "characterCount": 10,
+            "confidence": 96.28758,
+            "firstCharacterIndex": 442,
+            "isFromDictionary": true,
+            "value": "deliberate"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 249.59999,
+              "top": 463.44,
+              "width": 12.24
+            },
+            "characterCount": 3,
+            "confidence": 95.37405,
+            "firstCharacterIndex": 452,
+            "isFromDictionary": true,
+            "value": "and"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 265.44,
+              "top": 463.44,
+              "width": 4.08
+            },
+            "characterCount": 2,
+            "confidence": 95.37405,
+            "firstCharacterIndex": 455,
+            "isFromDictionary": true,
+            "value": "is"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 273.12,
+              "top": 463.44,
+              "width": 10.08
+            },
+            "characterCount": 3,
+            "confidence": 96.55261,
+            "firstCharacterIndex": 457,
+            "isFromDictionary": true,
+            "value": "the"
+          },
+          {
+            "bbox": {
+              "height": 6.72,
+              "left": 286.56,
+              "top": 463.44,
+              "width": 31.439999
+            },
+            "characterCount": 8,
+            "confidence": 96.56397,
+            "firstCharacterIndex": 460,
+            "isFromDictionary": true,
+            "value": "expected"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 321.36,
+              "top": 463.44,
+              "width": 43.68
+            },
+            "characterCount": 13,
+            "confidence": 96.14588,
+            "firstCharacterIndex": 468,
+            "isFromDictionary": true,
+            "value": "deterministic"
+          },
+          {
+            "bbox": {
+              "height": 5.52,
+              "left": 368.63998,
+              "top": 463.44,
+              "width": 22.32
+            },
+            "characterCount": 6,
+            "confidence": 96.47308,
+            "firstCharacterIndex": 481,
+            "isFromDictionary": true,
+            "value": "review"
+          },
+          {
+            "bbox": {
+              "height": 6.96,
+              "left": 393.6,
+              "top": 463.44,
+              "width": 24.96
+            },
+            "characterCount": 8,
+            "confidence": 96.78387,
+            "firstCharacterIndex": 487,
+            "isFromDictionary": true,
+            "value": "finding."
+          }
+        ]
+      },
+      "tables": [
+        {
+          "bbox": {
+            "height": 29.039999,
+            "left": 78.72,
+            "top": 328.56,
+            "width": 454.56
+          },
+          "cells": [
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 78.72,
+                "top": 328.56,
+                "width": 72.479996
+              },
+              "columnIndex": 0,
+              "isHeader": true,
+              "rowIndex": 0,
+              "text": "SKU"
+            },
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 151.2,
+                "top": 328.56,
+                "width": 216
+              },
+              "columnIndex": 1,
+              "isHeader": true,
+              "rowIndex": 0,
+              "text": "Description"
+            },
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 367.19998,
+                "top": 328.56,
+                "width": 93.6
+              },
+              "columnIndex": 2,
+              "isHeader": true,
+              "rowIndex": 0,
+              "text": "Packed quantity"
+            },
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 460.8,
+                "top": 328.56,
+                "width": 72.479996
+              },
+              "columnIndex": 3,
+              "isHeader": true,
+              "rowIndex": 0,
+              "text": "Cartons"
+            }
+          ],
+          "columns": [
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 78.72,
+                "top": 328.56,
+                "width": 72.479996
+              }
+            },
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 151.2,
+                "top": 328.56,
+                "width": 216
+              }
+            },
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 367.19998,
+                "top": 328.56,
+                "width": 93.6
+              }
+            },
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 460.8,
+                "top": 328.56,
+                "width": 72.479996
+              }
+            }
+          ],
+          "confidence": 100,
+          "lines": [],
+          "rows": [
+            {
+              "bbox": {
+                "height": 29.039999,
+                "left": 78.72,
+                "top": 328.56,
+                "width": 454.56
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

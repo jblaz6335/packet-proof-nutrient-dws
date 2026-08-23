@@ -4,7 +4,7 @@ Packet Proof is an auditable exception desk for trade-document packets. Nutrient
 
 Built by [Blaz Algo Systems](https://blazalgosystems.netlify.app/proof-of-work/). For Python/API reliability, document automation, or a scoped integration, see the [service menu](https://blazalgosystems.netlify.app/services/).
 
-The included demo uses fictional PDFs and recorded synthetic extraction fixtures. It makes **zero Nutrient API calls**.
+The default demo uses fictional PDFs and recorded synthetic extraction fixtures. It makes **zero Nutrient API calls**. Sanitized responses from a separate authorized live run are retained under `artifacts/live/`.
 
 ## Local demo
 
@@ -46,4 +46,10 @@ pytest --cov=packet_proof --cov-report=term-missing
 python -m pip check
 ```
 
-See `SUBMISSION.md` for the remaining API, video, repository, and Devpost gates.
+The retained live evidence can be rebuilt without credentials:
+
+```bash
+python tools/replay_live_responses.py
+```
+
+See `SUBMISSION.md` for the remaining video and Devpost gates.

@@ -1,0 +1,146 @@
+[
+  {
+    "document_id": "commercial-invoice",
+    "document_type": "commercial_invoice",
+    "fields": [
+      {
+        "confidence": "1.0",
+        "name": "invoice_total",
+        "page": 1,
+        "value": "USD 3,300.00"
+      },
+      {
+        "confidence": "1.0",
+        "name": "invoice",
+        "page": 1,
+        "value": "INV-2048"
+      },
+      {
+        "confidence": "1.0",
+        "name": "purchase_order",
+        "page": 1,
+        "value": "PO-8814"
+      },
+      {
+        "confidence": "0.7028207000000001",
+        "name": "supplier",
+        "page": 1,
+        "value": "Northstar Components LLC"
+      },
+      {
+        "confidence": "0.9968487500000001",
+        "name": "currency",
+        "page": 1,
+        "value": "USD"
+      },
+      {
+        "confidence": "0.95",
+        "name": "country_of_origin",
+        "page": 1,
+        "value": "United States"
+      },
+      {
+        "confidence": "1",
+        "name": "sku_1",
+        "page": 1,
+        "value": "AX-410"
+      },
+      {
+        "confidence": "1",
+        "name": "quantity_1",
+        "page": 1,
+        "value": "24"
+      },
+      {
+        "confidence": "1",
+        "name": "unit_price_1",
+        "page": 1,
+        "value": "120.00"
+      },
+      {
+        "confidence": "1",
+        "name": "line_total_1",
+        "page": 1,
+        "value": "2880.00"
+      }
+    ],
+    "provider": "nutrient_dws",
+    "sha256": "c69d0ae0fe2d303368e44d2e047fc8018c0bcb29d20494f6ef33347dc2414518"
+  },
+  {
+    "document_id": "packing-list",
+    "document_type": "packing_list",
+    "fields": [
+      {
+        "confidence": "1.0",
+        "name": "purchase_order",
+        "page": 1,
+        "value": "PO-8814"
+      },
+      {
+        "confidence": "0.7494342",
+        "name": "packing_list",
+        "page": 1,
+        "value": "PK-2048"
+      },
+      {
+        "confidence": "0.7102552",
+        "name": "packages",
+        "page": 1,
+        "value": "4 cartons"
+      },
+      {
+        "confidence": "0.7028207000000001",
+        "name": "supplier",
+        "page": 1,
+        "value": "Northstar Components LLC"
+      },
+      {
+        "confidence": "0.7002693",
+        "name": "gross_weight",
+        "page": 1,
+        "value": "186 kg"
+      },
+      {
+        "confidence": "0.8978036",
+        "name": "destination",
+        "page": 1,
+        "value": "Fictional Harbor Imports, Long Beach, CA"
+      },
+      {
+        "confidence": "1",
+        "name": "sku_1",
+        "page": 1,
+        "value": "AX-410"
+      },
+      {
+        "confidence": "1",
+        "name": "quantity_1",
+        "page": 1,
+        "value": "22"
+      }
+    ],
+    "provider": "nutrient_dws",
+    "sha256": "9fdc4ba789f4f0c82111b282bee0bdc593d17532a9c2c06ebd4c0004162dcdda"
+  },
+  {
+    "document_id": "origin-certificate",
+    "document_type": "origin_certificate",
+    "fields": [
+      {
+        "confidence": "0.8802675000000001",
+        "name": "certificate_of_origin",
+        "page": 1,
+        "value": "FICTIONAL SYNTHETIC HACKATHON FIXTURE -INOT A COMMERCIAL DOCUMENT"
+      },
+      {
+        "confidence": "0.95",
+        "name": "country_of_origin",
+        "page": 1,
+        "value": "United States"
+      }
+    ],
+    "provider": "nutrient_dws",
+    "sha256": "dcef4c7a2d9fd3c46ea7ee7cf2644d26b21668efdc28419e90d72280ea45391d"
+  }
+]

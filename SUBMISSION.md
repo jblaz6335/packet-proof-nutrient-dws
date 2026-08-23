@@ -23,7 +23,8 @@ Nutrient DWS performs the core document operation: it converts each PDF into str
 - An official-origin-only Nutrient adapter with a deliberate two-part live execution gate.
 - SHA-256 source ledger, stable audit hash, page evidence, confidence review, and fail-closed validation.
 - HTML exception desk plus machine-readable JSON result.
-- 78 automated tests with 98.09% branch-aware coverage.
+- An authorized live DWS run against all three fictional PDFs, with sanitized response evidence retained for replay.
+- 80 automated tests with 95.48% branch-aware coverage.
 
 ## Submission checklist
 
@@ -33,11 +34,12 @@ Nutrient DWS performs the core document operation: it converts each PDF into str
 - [x] Deterministic local demo
 - [x] Security and human-authority boundary
 - [x] Automated verification suite
-- [ ] Execute the live Nutrient flow with an authorized API key and retain sanitized proof
+- [x] Execute the live Nutrient flow with an authorized API key and retain sanitized proof
 - [x] Publish a public repository or judge-accessible shared link
 - [x] Render the 2–4 minute demonstration video locally (`submission-assets/packet-proof-demo.mp4`, 2:57)
 - [ ] Upload the demonstration video and retain the public or unlisted URL
-- [ ] Create the Devpost entry and paste the required one-line DWS statement
+- [x] Create the Devpost draft and set its solo-project name and pitch
+- [ ] Complete the Devpost details and paste the required one-line DWS statement
 - [ ] Submit before September 3, 2026 at 10:00 AM PDT
 
 Official competition: <https://api-cloud-ai-hackathon-2026.devpost.com/>

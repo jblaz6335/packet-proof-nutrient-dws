@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+from decimal import Decimal
 
 import httpx
 import pytest
@@ -104,6 +105,61 @@ def test_nutrient_normalize_accepts_snake_case_pairs():
         "a" * 64,
     )
     assert document.values()["supplier"].value == "Northstar"
+
+
+def test_nutrient_normalize_accepts_current_page_schema_and_derives_line_item():
+    document = NutrientProvider._normalize(
+        {
+            "pages": [
+                {
+                    "keyValuePairs": [
+                        {
+                            "key": {"content": "Purchase order"},
+                            "value": {"content": "PO-8814"},
+                            "confidence": 98,
+                        }
+                    ],
+                    "plainText": "AX-410  Control module  24  $120.00  $2,880.00",
+                }
+            ]
+        },
+        "invoice",
+        "commercial_invoice",
+        "a" * 64,
+    )
+    assert document.values()["purchase_order"].confidence == Decimal("0.98")
+    assert document.values()["purchase_order"].page == 1
+    assert document.values()["sku_1"].value == "AX-410"
+    assert document.values()["quantity_1"].value == "24"
+    assert document.values()["unit_price_1"].value == "120.00"
+    assert document.values()["line_total_1"].value == "2880.00"
+
+
+def test_nutrient_normalize_uses_labeled_country_and_packed_quantity():
+    document = NutrientProvider._normalize(
+        {
+            "pages": [
+                {
+                    "keyValuePairs": [
+                        {
+                            "key": {"content": "Country of origin"},
+                            "value": {"content": "Destination"},
+                            "confidence": 100,
+                        }
+                    ],
+                    "plainText": (
+                        "Country of origin       United S$ tates\n"
+                        "AX-410    Control module                22        3\n"
+                    ),
+                }
+            ]
+        },
+        "packing",
+        "packing_list",
+        "a" * 64,
+    )
+    assert document.values()["country_of_origin"].value == "United States"
+    assert document.values()["quantity_1"].value == "22"
 
 
 def test_nutrient_normalize_rejects_nonobject_pair():

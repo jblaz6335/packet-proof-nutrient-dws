@@ -1,0 +1,62 @@
+{
+  "audit_hash": "ef5ccc04885fb6ea57428ef94926fde6d075352785e5baebfe857ce57a1e40f5",
+  "auto_released": false,
+  "document_count": 3,
+  "documents": [
+    {
+      "document_id": "commercial-invoice",
+      "document_type": "commercial_invoice",
+      "provider": "nutrient_dws",
+      "sha256": "c69d0ae0fe2d303368e44d2e047fc8018c0bcb29d20494f6ef33347dc2414518"
+    },
+    {
+      "document_id": "origin-certificate",
+      "document_type": "origin_certificate",
+      "provider": "nutrient_dws",
+      "sha256": "dcef4c7a2d9fd3c46ea7ee7cf2644d26b21668efdc28419e90d72280ea45391d"
+    },
+    {
+      "document_id": "packing-list",
+      "document_type": "packing_list",
+      "provider": "nutrient_dws",
+      "sha256": "9fdc4ba789f4f0c82111b282bee0bdc593d17532a9c2c06ebd4c0004162dcdda"
+    }
+  ],
+  "findings": [
+    {
+      "code": "quantity_mismatch",
+      "evidence": [
+        "page 1",
+        "page 1"
+      ],
+      "message": "Quantity mismatch: 24 versus 22",
+      "severity": "block"
+    },
+    {
+      "code": "low_confidence",
+      "evidence": [
+        "c69d0ae0fe2d303368e44d2e047fc8018c0bcb29d20494f6ef33347dc2414518"
+      ],
+      "message": "commercial_invoice has low-confidence fields: supplier",
+      "severity": "review"
+    },
+    {
+      "code": "low_confidence",
+      "evidence": [
+        "9fdc4ba789f4f0c82111b282bee0bdc593d17532a9c2c06ebd4c0004162dcdda"
+      ],
+      "message": "packing_list has low-confidence fields: packing_list, packages, supplier, gross_weight, destination",
+      "severity": "review"
+    },
+    {
+      "code": "low_confidence",
+      "evidence": [
+        "dcef4c7a2d9fd3c46ea7ee7cf2644d26b21668efdc28419e90d72280ea45391d"
+      ],
+      "message": "origin_certificate has low-confidence fields: certificate_of_origin",
+      "severity": "review"
+    }
+  ],
+  "provider_mode": "live",
+  "status": "human_review_required"
+}

@@ -26,6 +26,8 @@ The live integration sends each PDF to Nutrient DWS Processor's official `/build
 
 The public repository also includes a clearly labeled network-free replay fixture so judges can reproduce the complete reconciliation and UI without credentials. Replay output is synthetic and is not presented as a live API response.
 
+I also completed an authorized live run against all three fictional PDFs. Sanitized DWS responses are retained in the public repository and rebuild the same human-review desk without exposing an API key.
+
 **Required sponsor statement:** Nutrient DWS extracted structured JSON content from each source PDF; Packet Proof reconciled those extracted fields deterministically and reserved the release decision for a human.
 
 ## Challenges we ran into
@@ -38,7 +40,8 @@ Document automation becomes dangerous when extraction uncertainty is silently tr
 - A blocking mismatch that is traceable to exact document evidence.
 - Deterministic reconciliation rather than an unreviewable model verdict.
 - Human-in-the-loop release boundaries built into the product behavior.
-- 78 automated tests and 98.09% branch-aware coverage.
+- An authorized three-document live DWS run with sanitized, replayable response evidence.
+- 80 automated tests and 95.48% branch-aware coverage.
 - Fictional fixtures, replay instructions, security documentation, and an MIT-licensed public repository.
 
 ## What we learned
@@ -57,4 +60,4 @@ Next steps are configurable customer rule packs, reviewer annotations, exception
 
 ## Submission accuracy note
 
-The rendered 2:57 demo uses the repository's labeled synthetic replay path. Do not describe it as a recorded live Nutrient API call. Add a separate sanitized live-proof result only after the authorized DWS flow has been executed.
+The rendered 2:57 demo uses the repository's labeled synthetic replay path; it is not a recording of the API call. The separate `artifacts/live/` evidence comes from the authorized DWS run against the same three fictional PDFs.

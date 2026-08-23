@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Packet Proof</title>
+<style>
+:root{--navy:#0b1736;--blue:#2667ff;--cream:#f6f2e8;--paper:#fffdf8;--line:#d8d5cb;--red:#ef6b5b;--amber:#f2bb4a}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--navy);font:16px/1.45 Arial,sans-serif}
+main{max-width:1160px;margin:auto;padding:54px 36px 74px}.eyebrow{font-size:13px;font-weight:800;letter-spacing:.17em;color:var(--blue)}
+h1{font-size:66px;line-height:.98;margin:14px 0 18px;max-width:900px}.lede{font-size:22px;max-width:800px;color:#526078}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:38px 0}.card,section{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:22px}
+.card span{display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#667089}.card strong{font-size:32px}
+section{margin-top:20px}h2{margin:0 0 15px;font-size:25px}table{width:100%;border-collapse:collapse}th,td{padding:13px 12px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#667089}.badge{display:inline-block;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800;text-transform:uppercase}.block{background:#ffd9d3}.review{background:#ffe8b1}
+.boundary{display:grid;grid-template-columns:1fr 1fr;gap:18px}pre{background:var(--navy);color:#eef3ff;padding:18px;border-radius:14px;max-height:330px;overflow:auto;white-space:pre-wrap}
+@media(max-width:800px){h1{font-size:44px}.cards,.boundary{grid-template-columns:1fr}}
+</style></head><body><main><div class="eyebrow">DEVNETWORK 2026 · NUTRIENT DWS ROUTE · LOCAL SYNTHETIC PROOF</div>
+<h1>Catch the mismatch<br>before customs does.</h1><p class="lede">Packet Proof turns extracted trade documents into a deterministic exception desk: every source is hashed, every discrepancy is cited, and nothing is released without a person.</p>
+<div class="cards"><div class="card"><span>Documents</span><strong>3</strong></div><div class="card"><span>Findings</span><strong>4</strong></div><div class="card"><span>Auto-released</span><strong>No</strong></div><div class="card"><span>Mode</span><strong>live</strong></div></div>
+<section><h2>Exception ledger</h2><table><thead><tr><th>Severity</th><th>Code</th><th>Evidence</th></tr></thead><tbody><tr><td><span class='badge block'>block</span></td><td>quantity_mismatch</td><td>Quantity mismatch: 24 versus 22</td></tr><tr><td><span class='badge review'>review</span></td><td>low_confidence</td><td>commercial_invoice has low-confidence fields: supplier</td></tr><tr><td><span class='badge review'>review</span></td><td>low_confidence</td><td>packing_list has low-confidence fields: packing_list, packages, supplier, gross_weight, destination</td></tr><tr><td><span class='badge review'>review</span></td><td>low_confidence</td><td>origin_certificate has low-confidence fields: certificate_of_origin</td></tr></tbody></table></section>
+<section><h2>Source ledger</h2><table><thead><tr><th>Type</th><th>ID</th><th>SHA-256</th><th>Extraction</th></tr></thead><tbody><tr><td>Commercial Invoice</td><td>commercial-invoice</td><td><code>c69d0ae0fe2d3033...</code></td><td>nutrient_dws</td></tr><tr><td>Origin Certificate</td><td>origin-certificate</td><td><code>dcef4c7a2d9fd3c4...</code></td><td>nutrient_dws</td></tr><tr><td>Packing List</td><td>packing-list</td><td><code>9fdc4ba789f4f0c8...</code></td><td>nutrient_dws</td></tr></tbody></table></section>
+<section class="boundary"><div><h2>Agent work</h2><ul><li>Send each PDF to Nutrient DWS extraction.</li><li>Normalize fields with page evidence.</li><li>Recalculate invoice math.</li><li>Cross-check packet identity, SKU, quantity, and origin.</li></ul></div><div><h2>Human authority</h2><ul><li>Review every exception.</li><li>Confirm corrective documents.</li><li>Approve or reject release.</li><li>Own the final compliance decision.</li></ul></div></section>
+<section><h2>Replayable result</h2><p>Audit hash: <code>ef5ccc04885fb6ea57428ef94926fde6d075352785e5baebfe857ce57a1e40f5</code></p><pre>{
+  &quot;status&quot;: &quot;human_review_required&quot;,
+  &quot;auto_released&quot;: false,
+  &quot;document_count&quot;: 3,
+  &quot;provider_mode&quot;: &quot;live&quot;,
+  &quot;audit_hash&quot;: &quot;ef5ccc04885fb6ea57428ef94926fde6d075352785e5baebfe857ce57a1e40f5&quot;,
+  &quot;findings&quot;: [
+    {
+      &quot;code&quot;: &quot;quantity_mismatch&quot;,
+      &quot;severity&quot;: &quot;block&quot;,
+      &quot;message&quot;: &quot;Quantity mismatch: 24 versus 22&quot;,
+      &quot;evidence&quot;: [
+        &quot;page 1&quot;,
+        &quot;page 1&quot;
+      ]
+    },
+    {
+      &quot;code&quot;: &quot;low_confidence&quot;,
+      &quot;severity&quot;: &quot;review&quot;,
+      &quot;message&quot;: &quot;commercial_invoice has low-confidence fields: supplier&quot;,
+      &quot;evidence&quot;: [
+        &quot;c69d0ae0fe2d303368e44d2e047fc8018c0bcb29d20494f6ef33347dc2414518&quot;
+      ]
+    },
+    {
+      &quot;code&quot;: &quot;low_confidence&quot;,
+      &quot;severity&quot;: &quot;review&quot;,
+      &quot;message&quot;: &quot;packing_list has low-confidence fields: packing_list, packages, supplier, gross_weight, destination&quot;,
+      &quot;evidence&quot;: [
+        &quot;9fdc4ba789f4f0c82111b282bee0bdc593d17532a9c2c06ebd4c0004162dcdda&quot;
+      ]
+    },
+    {
+      &quot;code&quot;: &quot;low_confidence&quot;,
+      &quot;severity&quot;: &quot;review&quot;,
+      &quot;message&quot;: &quot;origin_certificate has low-confidence fields: certificate_of_origin&quot;,
+      &quot;evidence&quot;: [
+        &quot;dcef4c7a2d9fd3c46ea7ee7cf2644d26b21668efdc28419e90d72280ea45391d&quot;
+      ]
+    }
+  ],
+  &quot;documents&quot;: [
+    {
+      &quot;document_id&quot;: &quot;commercial-invoice&quot;,
+      &quot;document_type&quot;: &quot;commercial_invoice&quot;,
+      &quot;sha256&quot;: &quot;c69d0ae0fe2d303368e44d2e047fc8018c0bcb29d20494f6ef33347dc2414518&quot;,
+      &quot;provider&quot;: &quot;nutrient_dws&quot;
+    },
+    {
+      &quot;document_id&quot;: &quot;origin-certificate&quot;,
+      &quot;document_type&quot;: &quot;origin_certificate&quot;,
+      &quot;sha256&quot;: &quot;dcef4c7a2d9fd3c46ea7ee7cf2644d26b21668efdc28419e90d72280ea45391d&quot;,
+      &quot;provider&quot;: &quot;nutrient_dws&quot;
+    },
+    {
+      &quot;document_id&quot;: &quot;packing-list&quot;,
+      &quot;document_type&quot;: &quot;packing_list&quot;,
+      &quot;sha256&quot;: &quot;9fdc4ba789f4f0c82111b282bee0bdc593d17532a9c2c06ebd4c0004162dcdda&quot;,
+      &quot;provider&quot;: &quot;nutrient_dws&quot;
+    }
+  ]
+}</pre></section>
+</main></body></html>
