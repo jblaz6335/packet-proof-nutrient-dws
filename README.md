@@ -2,6 +2,8 @@
 
 Packet Proof is an auditable exception desk for trade-document packets. Nutrient DWS performs the core PDF extraction; deterministic local rules compare a commercial invoice, packing list, and certificate of origin; a human owns the release decision.
 
+Built by [Blaz Algo Systems](https://blazalgosystems.netlify.app/proof-of-work/). For Python/API reliability, document automation, or a scoped integration, see the [service menu](https://blazalgosystems.netlify.app/services/).
+
 The included demo uses fictional PDFs and recorded synthetic extraction fixtures. It makes **zero Nutrient API calls**.
 
 ## Local demo
