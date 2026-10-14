@@ -2,9 +2,21 @@
 
 Packet Proof is an auditable exception desk for trade-document packets. Nutrient DWS performs the core PDF extraction; deterministic local rules compare a commercial invoice, packing list, and certificate of origin; a human owns the release decision.
 
-Built by [Blaz Algo Systems](https://blazalgosystems.netlify.app/proof-of-work/). For Python/API reliability, document automation, or a scoped integration, see the [service menu](https://blazalgosystems.netlify.app/services/).
-
 The default demo uses fictional PDFs and recorded synthetic extraction fixtures. It makes **zero Nutrient API calls**. Sanitized responses from a separate authorized live run are retained under `artifacts/live/`.
+
+## See the result
+
+![Synthetic Packet Proof report showing the 24-versus-22 quantity mismatch](artifacts/demo-screenshot.png)
+
+The demo detects **24 units on the invoice versus 22 on the packing list** and returns `human_review_required`. The release decision stays with a person.
+
+[Demo video](https://youtu.be/AgYh_pTIXpI) · [Sample report source](artifacts/packet-report.html) · [Recorded result](artifacts/packet-result.json) · [Dated verification record](VERIFICATION.md)
+
+## Architecture
+
+PDFs → Nutrient extraction or recorded fixtures → typed document models → deterministic reconciliation → JSON and HTML evidence for human review.
+
+The implementation separates [provider integration](packet_proof/provider.py), [models](packet_proof/models.py), [comparison rules](packet_proof/engine.py), and [reporting](packet_proof/report.py). Tests exercise validation, mismatch handling, stable hashes, HTML escaping, and provider failures.
 
 ## Local demo
 
@@ -52,4 +64,8 @@ The retained live evidence can be rebuilt without credentials:
 python tools/replay_live_responses.py
 ```
 
-See `SUBMISSION.md` for the remaining video and Devpost gates.
+See [VERIFICATION.md](VERIFICATION.md) for dated test, coverage, live extraction, video, and submission evidence. [SUBMISSION.md](SUBMISSION.md) retains the submission checklist.
+
+## Project contact
+
+Built by [Blaz Algo Systems](https://blazalgosystems.netlify.app/proof-of-work/). For Python/API reliability, document automation, or a scoped integration, see the [service menu](https://blazalgosystems.netlify.app/services/).
